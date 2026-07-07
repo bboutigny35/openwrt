@@ -85,6 +85,9 @@ config relay
     list interface 'br-lan1'  # Interface de sortie vers le serveur Windows
     list interface 'br-lan2'  # Interface d'écoute des clients filaires
     list interface 'br-wlan'  # Interface d'écoute du réseau Wi-Fi
+'''
+
+--- 
 
 ## ⚙️ 4. Déploiement de la configuration d'OpenWrt via un script
 
