@@ -78,14 +78,12 @@ Pour résoudre cette problématique, le routeur embarque l'agent de relais offic
 ### Configuration du Démon `dhcrelay4`
 Le service a été configuré pour s'attacher manuellement aux interfaces physiques du noyau afin d'intercepter les requêtes réseaux locaux et les encapsuler en Unicast vers le serveur DHCP :
 
-```bash
-# Structure validée du fichier /etc/config/dhcrelay
-config relay
-    option server '10.35.37.120'
-    list interface 'br-lan1'  # Interface de sortie vers le serveur Windows
-    list interface 'br-lan2'  # Interface d'écoute des clients filaires
-    list interface 'br-wlan'  # Interface d'écoute du réseau Wi-Fi
-'''
+        # Structure validée du fichier /etc/config/dhcrelay
+        config relay
+            option server '10.35.37.120'
+            list interface 'br-lan1'  # Interface de sortie vers le serveur Windows
+            list interface 'br-lan2'  # Interface d'écoute des clients filaires
+            list interface 'br-wlan'  # Interface d'écoute du réseau Wi-Fi
 
 --- 
 
