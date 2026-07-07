@@ -1,6 +1,8 @@
 # 🌐 Présentation d'OpenWrt & Fonctionnalités Réseau
 
-![Logo_OpenWrt](./images/openwrt.png)
+<p align="center">
+    <img src="./images/openwrt.png" alt="Logo OpenWrt">
+</p>
 
 **OpenWrt** est un système d'exploitation libre et open-source incontournable basé sur le noyau Linux, conçu spécifiquement pour les routeurs et les appareils embarqués. 
 
